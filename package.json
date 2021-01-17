@@ -21,8 +21,8 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
     "styled-components": "^5.2.1",
-    "tailwind.macro": "^0.5.10",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^2.0.2",
+    "twin.macro": "^2.0.8"
   },
   "devDependencies": {
     "prettier": "2.2.1"
@@ -50,8 +50,7 @@
   },
   "babelMacros": {
     "twin": {
-        "config": "./src/tailwind.config.js",
-        "preset": "styled-components"
+      "config": "tailwind.config.js"
     }
-}
+  }
 }
