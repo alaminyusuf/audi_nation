@@ -1,18 +1,21 @@
 import React from "react"
 import tw from "twin.macro"
 
-const Ul = tw.ul`flex text-red-500`
+const Nav = tw.nav``
+const Ul = tw.ul`flex justify-evenly`
+const Li = tw.li`uppercase hover:text-yellow-500 cursor-pointer`
 
-const Nav = () => {
+const Navbar = () => {
   return (
-    <nav>
+    <Nav>
       <Ul>
-        <li>Home</li>
-        <li>View More</li>
-        <li>Contact Us</li>
+        <Li>Home</Li>
+        <Li>View More</Li>
+        <Li>Contact Us</Li>
+        <Li>About Us</Li>
       </Ul>
-    </nav>
+    </Nav>
   )
 }
 
-export default Nav
+export default Navbar
