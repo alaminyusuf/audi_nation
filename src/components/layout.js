@@ -9,7 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import "./layout.css"
-import Nav from "./Nav"
+import Footer from "./Footer"
+// import Nav from "./Nav"
 
 const Layout = ({ children }) => {
   return (
@@ -21,13 +22,9 @@ const Layout = ({ children }) => {
           fontFamily: "sans-serif",
         }}
       >
-        <Nav />
+        {/* <Nav /> */}
         <main>{children}</main>
-        <footer style={{ textAlign: "center" }}>
-          © {new Date().getFullYear()}
-          {` `}
-          <a href="https://www.github.com/dev-empire">Audi Nation</a>
-        </footer>
+        <Footer />
       </div>
     </>
   )

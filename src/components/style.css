@@ -1,0 +1,39 @@
+.overlay-container {
+  position: relative;
+}
+
+.overlay-bg h1,
+h2,
+h3,
+h4,
+nav {
+  z-index: 5 !important;
+}
+.overlay-bg::after {
+  height: 100%;
+  width: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.z-10 {
+  z-index: 5 !important;
+}
+
+.centred {
+  position: relative;
+  top: 40%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.container {
+  max-width: 90%;
+  overflow: hidden;
+  margin: 0 auto;
+}
