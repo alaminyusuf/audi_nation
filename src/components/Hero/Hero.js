@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div className="overlay-container">
       <Wrapper
-        style={{ backgroundImage: `url(${Image})`, height: "70vh" }}
+        style={{ backgroundImage: `url(${Image})`, height: "85vh" }}
         className="overlay-bg"
       >
         <div className="container">
