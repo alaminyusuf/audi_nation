@@ -10,19 +10,11 @@ import PropTypes from "prop-types"
 
 import "./layout.css"
 import Footer from "./Footer"
-// import Nav from "./Nav"
 
 const Layout = ({ children }) => {
   return (
     <>
-      <div
-        style={{
-          backgroundColor: "rgb(71, 68, 68)",
-          color: "#fff",
-          fontFamily: "sans-serif",
-        }}
-      >
-        {/* <Nav /> */}
+      <div>
         <main>{children}</main>
         <Footer />
       </div>

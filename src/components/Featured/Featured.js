@@ -16,13 +16,15 @@ const Featured = () => {
     <Container>
       <Luxury>
         <Text>
-          <Heading>Luxury</Heading>
-          <P>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure qui
-            perferendis quod accusamus ipsum. Minima culpa quod ut numquam porro
-            delectus suscipit laudantium, quisquam blanditiis ullam earum beatae
-            illum distinctio.
-          </P>
+          <div className="centered">
+            <Heading>Luxury</Heading>
+            <P>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure qui
+              perferendis quod accusamus ipsum. Minima culpa quod ut numquam
+              porro delectus suscipit laudantium, quisquam blanditiis ullam
+              earum beatae illum distinctio.
+            </P>
+          </div>
         </Text>
         <ImgContainter>
           <img src={`${LuxCar}`} className="w-full" alt="Luxury Vehicle" />
@@ -33,13 +35,15 @@ const Featured = () => {
           <img src={`${LuxCar}`} className="w-full" alt="Sport Vehicle" />
         </ImgContainter>
         <Text>
-          <Heading>Sport</Heading>
-          <P>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt,
-            obcaecati. Dolor, placeat! Natus asperiores vitae quibusdam adipisci
-            accusantium non assumenda, quos unde mollitia debitis blanditiis,
-            libero quis veritatis aperiam minima?
-          </P>
+          <div className="centered">
+            <Heading>Sport</Heading>
+            <P>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt,
+              obcaecati. Dolor, placeat! Natus asperiores vitae quibusdam
+              adipisci accusantium non assumenda, quos unde mollitia debitis
+              blanditiis, libero quis veritatis aperiam minima?
+            </P>
+          </div>
         </Text>
       </Sport>
     </Container>

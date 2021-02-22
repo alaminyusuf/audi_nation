@@ -1,9 +1,9 @@
 import React from "react"
 import tw from "twin.macro"
 
-const Nav = tw.nav`py-5`
+const Nav = tw.nav`py-5 sticky z-10`
 const Ul = tw.ul`flex justify-evenly`
-const Li = tw.li`uppercase hover:text-yellow-500 cursor-pointer`
+const Li = tw.li`uppercase text-white hover:text-yellow-500 cursor-pointer`
 
 const Navbar = () => {
   return (

@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import tw from "twin.macro"
 
-const Body = tw.footer`text-center py-5`
+const Body = tw.footer`text-center py-5 bg-primary`
 
 const Footer = () => {
   return (
