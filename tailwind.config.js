@@ -720,6 +720,7 @@ module.exports = {
       screen: "100vw",
       min: "min-content",
       max: "max-content",
+      big_screen: "500px",
     }),
     zIndex: {
       auto: "auto",
