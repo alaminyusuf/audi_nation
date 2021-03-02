@@ -27,6 +27,12 @@
   transform: translateX(-50%) translateY(-50%);
 }
 
+.container {
+  max-width: 90%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
 @media (min-width: 768px) {
   .centered {
     position: relative;
@@ -37,9 +43,20 @@
     transform: translateX(-50%) translateY(-50%);
   }
 }
+@media (max-width: 768px) {
+  .overlay-bg {
+    height: 65vh !important;
+  }
+}
 
-.container {
-  max-width: 90%;
-  overflow: hidden;
-  margin: 0 auto;
+@media (max-width: 322px) {
+  .nav-font {
+    font-size: 0.83rem !important;
+  }
+}
+
+@media (max-width: 300px) {
+  .nav-font {
+    font-size: 0.65rem !important;
+  }
 }

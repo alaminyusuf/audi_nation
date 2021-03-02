@@ -1,7 +1,7 @@
 import React from "react"
 import tw from "twin.macro"
 
-const Container = tw.div`py-5  grid grid-cols-1 md:grid-cols-2`
+const Container = tw.div`py-5 grid grid-cols-1 md:grid-cols-2`
 const Text = tw.div`text-lg py-7 text-center`
 const ImageContainer = tw.div`h-8 w-24 bg-gray-500 mx-auto md:my-auto`
 
