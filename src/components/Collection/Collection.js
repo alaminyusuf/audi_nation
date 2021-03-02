@@ -11,7 +11,7 @@ import Img4 from "../../images/audi r8 v10.jpeg"
 
 import Heading from "../Header"
 
-const Container = tw.div`flex gap-1 grid grid-cols-1 md:grid-cols-2`
+const Container = tw.div`gap-1 grid grid-cols-1 md:grid-cols-2`
 const Image = tw.img`w-full h-full`
 
 const Collection = () => {
