@@ -4,7 +4,7 @@ import Heading from "../Header"
 
 import LuxCar from "../../images/audi r8.jpeg"
 
-const Container = tw.div`py-10`
+const Container = tw.div`pt-10`
 const Luxury = tw.div`md:flex justify-evenly py-2`
 const Sport = tw.div`md:flex justify-evenly py-2`
 const Header = tw.h1`text-yellow-500 text-3xl pb-5 uppercase font-bold text-center`
