@@ -33,6 +33,12 @@
   margin: 0 auto;
 }
 
+.styled-input {
+  outline: none;
+  border-bottom: rgba(245, 158, 11, 1) 2.5px solid;
+  letter-spacing: 1.5px;
+}
+
 @media (min-width: 768px) {
   .centered {
     position: relative;
@@ -52,6 +58,14 @@
 @media (max-width: 322px) {
   .nav-font {
     font-size: 0.83rem !important;
+  }
+  .xsm-btn {
+    margin-left: 0 !important;
+    margin-top: 10px;
+  }
+
+  .xsm-input {
+    width: 100% !important;
   }
 }
 

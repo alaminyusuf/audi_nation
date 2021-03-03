@@ -13,6 +13,7 @@ module.exports = {
       "2xl": "1536px",
     },
     colors: {
+      secondary: "rgba(245, 158, 11, 1)",
       transparent: "transparent",
       current: "currentColor",
       primary: "rgb(71, 68, 68)",

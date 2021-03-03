@@ -9,7 +9,7 @@ const Announcement = () => {
   return (
     <Container>
       <Text>
-        We are trusted and liscened by <i className="text-yellow-500">Audi</i>{" "}
+        We are trusted and liscened by <i className="text-secondary">Audi</i>{" "}
         Motors, Get Email updates on newly arrived cars
       </Text>
       <ImageContainer></ImageContainer>

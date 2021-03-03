@@ -2,15 +2,39 @@ import React from "react"
 import { Link } from "gatsby"
 import tw from "twin.macro"
 
-const Body = tw.footer`text-center py-5 bg-primary`
+const Wrapper = tw.div`bg-primary`
+const Body = tw.footer`py-10 grid grid-cols-1 md:grid-cols-2`
+const NewsLetter = tw.input`w-3/4 bg-primary text-white px-3`
+const Label = tw.label`uppercase block text-secondary py-2 text-left`
+const Text = tw.p`text-white uppercase`
+const Email = tw.div`text-white uppercase mt-5`
+const Btn = tw.button`bg-secondary text-white uppercase p-1 ml-3`
+const Form = tw.form``
 
 const Footer = () => {
+  function handleSubmit(e) {
+    e.preventDefault()
+  }
   return (
-    <Body>
-      © {new Date().getFullYear()}
-      {` `}
-      <Link href="http://localhost:8000">Audi Nation</Link>
-    </Body>
+    <Wrapper>
+      <Body className="container">
+        <div className="w-full mr-auto">
+          <Form>
+            <Label>Newsletter</Label>
+            <NewsLetter type="email" className="styled-input xsm-input" />
+            <Btn className="xsm-btn" onSubmit={() => handleSubmit()}>
+              Submit
+            </Btn>
+          </Form>
+          <Email>Email: info@audination.com</Email>
+        </div>
+        <div>
+          <Text>
+            <Link href="http://localhost:8000">Audi Nation</Link>
+          </Text>
+        </div>
+      </Body>
+    </Wrapper>
   )
 }
 

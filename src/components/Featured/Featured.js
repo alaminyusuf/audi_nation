@@ -7,7 +7,7 @@ import LuxCar from "../../images/audi r8.jpeg"
 const Container = tw.div`pt-10`
 const Luxury = tw.div`md:flex justify-evenly py-2`
 const Sport = tw.div`md:flex justify-evenly py-2`
-const Header = tw.h1`text-yellow-500 text-3xl pb-5 uppercase font-bold text-center`
+const Header = tw.h1`text-secondary text-3xl pb-5 uppercase font-bold text-center`
 const Text = tw.div`block md:w-1/2`
 const P = tw.p`leading-loose text-base tracking-wider py-3`
 const ImgContainter = tw.div`md:w-2/5`
